@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="port.css">
+    <div class="navbar">
+        <nav>
+            <li><a href="port.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+        </nav>
+    </div>
+    <div class="fig">
+        <figure>
+            <img src="https://images.unsplash.com/photo-1564410267841-915d8e4d71ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+                alt="here is an image">
+        </figure>
+    </div>
+
+    <div class="about">
+        <p>Hello,I am Mahadev Kedari Kawane an Computer Science and Engineering student
+            and I am interested in web Developmment and Designing.I have also done some projects and some of them are
+            listed below.
+        </p>
+    </div>
+
+    <div class="projects">
+        <div class="project1">
+            <h1>:First Project:</h1>
+            <p>The first project,
+                was "Database Management System" where we made use of "Mysql","Python","Html,Css".With the help of our
+                Team and teacher's guidance we completed the project.
+            </p>
+        </div>
+        <div class="project2">
+            <h1>:Second project:</h1>
+            <p>The Second project,
+                was "GST E-BILL" an android application development project where we made use of android studio with
+                "XML" and "JAVA".
+            </p>
+        </div>
+        <div class="project3">
+            <h1>:Third project:</h1>
+            <p>The Third project,
+                was "DINO GAME" an Computer graphics and visualization project where we made use of Graphics packages of
+                "OPENGL" and "C language".
+            </p>
+        </div>
+    </div>
+
+    <div class="education">
+        <div class="bachelors">
+           <a href="https://www.vsmit.ac.in/"><h1>Bachelors:</h1></a> 
+            <p>Computer Science and Engineering at "VSM,s SRKIT NIPANI".</p>
+        </div>
+        <div class="PUC">
+            <h1>PUC:</h1>
+            <p>Science stream(PCMB) at "Government P U College Majalatti".</p>
+        </div>
+        <div class="SSLC">
+            <h1>SSLC:</h1>
+            <p>completed SSLC at "CLE K K English Medium School CHikkodi".</p>
+        </div>
+    </div>
+    <footer>
+        <div class="contacts">
+
+            <div class="insatgram">
+                <a href="https://www.instagram.com/__mk7____/">
+                    <img src="https://fastpng.com/images/high/instagram-c5n3rgttqxzicepy.webp" width="30vw">
+                </a>
+
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/mahadev-kawane/"> <img
+                        src="https://fastpng.com/images/high/linkedin-logo-png-13aipcbszgcfi1a3.webp" width="30vw"></a>
+
+            </div>
+            <div class="github">
+                <a href="https://github.com/mahadevkawane"> <img
+                        src="https://fastpng.com/images/high/github-github-icon-hd-png-download-wncovx8agmjctppn.webp"
+                        width="30vw"></a>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
+# css file
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #FFC0D6;
+
+}
+
+
+.navbar {
+    display: inline-block;
+    /* position: sticky; */
+    position: relative;
+    top: 20px;
+
+}
+
+.navbar nav li {
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    margin: 2vw;
+    padding: 2vh;
+}
+
+.navbar nav li a {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-size: large;
+}
+
+.fig {
+    float: right;
+    transform: translate(2vw, 0%);
+    transform-box: border-box;
+    border: 2vh solid black;
+
+}
+
+.about {
+    font-size: 2vw;
+    margin: 2vh;
+    padding: 2vw;
+    width: 35%;
+}
+
+.projects .project1 {
+    margin: 2vh;
+    padding: 2vw;
+    display: block;
+    width: 35%;
+}
+
+.project1 h1 {
+    text-align: center;
+    text-underline-offset: 8px;
+    text-decoration: underline;
+}
+
+.project1 p {
+    margin: 2vw;
+}
+
+.projects .project2 {
+    margin: 2vh;
+    padding: 2vw;
+    display: block;
+    width: 35%;
+}
+
+.project2 h1 {
+    text-align: center;
+    text-underline-offset: 8px;
+    text-decoration: underline;
+}
+
+.project2 p {
+    margin: 2vw;
+}
+
+.projects .project3 {
+    margin: 2vh;
+    padding: 2vw;
+    display: block;
+    width: 35%;
+}
+
+.project3 h1 {
+    text-align: center;
+    text-underline-offset: 8px;
+    text-decoration: underline;
+}
+
+.project3 p {
+    margin: 2vw;
+}
+
+.education {
+    display: flex;
+    margin: 2vh;
+    padding: 2vw;
+
+}
+
+.education h1 {
+    text-underline-offset: 8px;
+    text-underline-offset: 8px;
+    text-decoration: solid black;
+    color: black;
+
+}
+
+.education .bachelors {
+    text-align: center;
+    display: inline-block;
+    margin: 2vh;
+    padding: 2vw;
+
+}
+
+.education p {
+    margin: 2vw;
+}
+
+.education .PUC {
+    text-align: center;
+    display: inline-block;
+    margin: 2vh;
+    padding: 2vw;
+
+}
+
+.education .SSLC {
+    text-align: center;
+    display: inline-block;
+    margin: 2vh;
+    padding: 2vw;
+
+}
+
+.contacts {
+    align-content: baseline;
+    display: flex;
+    text-align: center;
+    grid-row: 1;
+    column-gap: 2vw;
+}
+
+.contacts linkedin {
+    padding: 2vw;
+    margin: 2px;
+}
+
+.contacts instagram {
+    padding: 2vw;
+    margin: 2px;
+}
+
+.contacts github {
+    padding: 2vw;
+}
